@@ -1,0 +1,22 @@
+.hero--maindiv{
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.photo-grid{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.hero--h1{
+    font-family: 'Poppins';
+    margin-bottom: 16px;
+}
+
+.hero--h3 {
+    margin-top: 0;
+    font-weight: 100;
+    font-family: 'Poppins';
+}

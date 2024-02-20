@@ -1,0 +1,52 @@
+.card--maindiv{
+    position: relative;
+    padding: 2em;
+}
+
+
+.card--photo{
+    border-radius: 9px;
+}
+
+.card--photoText{
+    position: absolute;
+    top: 42px;
+    left: 40px;
+    background-color: aliceblue;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.card--starIcon{
+    border-radius: 4px;
+}
+
+.card--ratingdiv{
+    display: flex;
+}
+
+.card--rating {
+    margin: 10px;
+}
+
+.card--rating2{
+    color: rgb(171, 168, 168);
+    margin-top: 10px;
+}
+
+.card--pay{
+    display: flex;
+}
+
+.card--summary, .card--summarypay1, .card--summarypay2{
+    margin: 0;
+}
+
+.card--summarypay1{
+    font-weight: bolder;
+}
+
+.card--summary{
+    font-size: 1rem;
+    font-weight: normal;
+}

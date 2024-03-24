@@ -23,6 +23,8 @@ function App() {
           country="USA"
           title={x.title}
           price={x.price}
+          openSpots={x.openSpots}
+          location={x.location}
         />
         )
       )}

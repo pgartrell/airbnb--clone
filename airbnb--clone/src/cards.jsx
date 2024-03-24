@@ -1,12 +1,16 @@
 import './cardscss.css'
 
 export default function Cards(props){
-
-    
+    let badgeText
+    if (props.openSpots === 0) {
+        badgeText = "SOLD OUT"
+    } else if (props.location === "Online") {
+        badgeText = "ONLINE"
+    }
     return(
         <div className='card--maindiv'>
             <img className="card--photo" src={props.img} alt="" height="235px" width="176px"/>
-            <div className='card--photoText'>SOLD OUT</div>
+            {badgeText && <div className='card--photoText'>{badgeText}</div>}
             <div className='card--infodiv'>
                 <div className='card--ratingdiv'>
                     <img className='card--starIcon' src='/star-icon.png' height="30px" width='30px' />

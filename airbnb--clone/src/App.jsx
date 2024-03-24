@@ -17,14 +17,7 @@ function App() {
 
         <Cards
           key={x.id}
-          img ={x.coverImg}
-          rating= {x.stats.rating}
-          reviewCount={x.stats.reviewCount}
-          country="USA"
-          title={x.title}
-          price={x.price}
-          openSpots={x.openSpots}
-          location={x.location}
+          x={x}
         />
         )
       )}
